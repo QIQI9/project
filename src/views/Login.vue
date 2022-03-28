@@ -35,6 +35,11 @@
         <p>短信登录</p>
         <p>找回密码</p>
       </div>
+
+      <div class="tip">
+        <p>账号名：12345</p>
+        <p>密码：0000</p>
+      </div>
     </main>
   </div>
 </template>
@@ -172,5 +177,11 @@ export default {
 }
 .footer p:nth-child(2) {
   color: #999999;
+}
+
+.tip {
+   text-align: center;
+   color: #999999;
+   margin-top: 50px;
 }
 </style>

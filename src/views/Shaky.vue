@@ -68,6 +68,7 @@ export default {
 }
 .home h2 {
   margin-bottom: 0;
+  margin-top: .3rem;
 }
 .home-item {
   width: 3rem;
@@ -84,6 +85,7 @@ export default {
 }
 .home-item .text {
   font-size: 0.16rem;
+  margin: .2rem 0;
 }
 .home-list li {
   display: flex;
@@ -108,5 +110,6 @@ export default {
   display: flex;
   justify-content: space-between;
   font-size: 0.2rem;
+  margin: .2rem .5rem;
 }
 </style>
