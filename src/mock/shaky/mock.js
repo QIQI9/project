@@ -11,9 +11,6 @@ let arr = Mock.mock([{
       "title": "@cword(10, 20)",
       "text": "@cword(3,4)",
       "names": "@cword(4)",
-      "integer": "@integer(1000,2000)",
-      // "integers": "@integer(1,500)"
-
    }]
 }])
 Mock.mock('/api/shaky', 'get', (config) => {
